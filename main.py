@@ -11,24 +11,10 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print('Hello World-Привет мир')
-print('Today we will count examples-Сегодгя мы считать примеры')
-print('But for this we need to write a few codes-Но для етого нам нужно написать несколько кодов')
-print('Well then lets start - Ну тогда начнем')
-prodolzhit = 'y'
-while prodolzhit == 'y':
-    a_num = float(input("Первое число ="))
-    oper = input("Введите операцыю = ")
-    b_num = float(input("Второе число ="))
-    if oper == '+':
-        print(a_num + b_num)
-    elif oper == '-':
-        print(a_num - b_num)
-    elif oper == '*':
-        print(a_num * b_num)
-    elif oper == '/':
-        print(a_num / b_num)
-    else:
-        print('ERROR')
-    prodolzhit = input('Ведите 'y' ,что бы продолжыть, или любую другуюклавишу,что бы завершыть')
+    print_hi('PyCharm')
+r = int(input('Ведіьб радіус - '))
+c = 2 * r * 3.14159
+s = 3.14159* r ** 2
+v = 3 / 4 * 3.14159 * r ** 3
+print("Довжина круга = {}, Площа круга = {}, Об'єм кулі = {}".format(c, s, v))
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
