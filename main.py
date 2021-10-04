@@ -11,12 +11,16 @@ def print_hi(name):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
 
-a, b = 1000, 7.77
-while True:
-    if a > 0:
-        print(f'{a} - {b}= { a - b}')
-        a-= b
-    else:break
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+ x = 0
+ print(x)
+ x = 0.0
+ print(x)
+
+
+
+
+
+
+
